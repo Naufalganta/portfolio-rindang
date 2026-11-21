@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title desc">
+  <title id="title">Nmap eye icon</title>
+  <desc id="desc">A stylized eye with a blue iris and black pupil, inspired by the eye motif in the Nmap banner.</desc>
+  <path d="M12 80 Q82 12 160 12 Q238 12 308 80 Q238 148 160 148 Q82 148 12 80Z" fill="#fff" stroke="#111" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M35 80 Q91 31 160 31 Q229 31 285 80 Q229 129 160 129 Q91 129 35 80Z" fill="#f7f7f7"/>
+  <circle cx="160" cy="80" r="48" fill="#0798dc" stroke="#111" stroke-width="9"/>
+  <circle cx="160" cy="80" r="25" fill="#050505"/>
+  <circle cx="174" cy="64" r="8" fill="#fff"/>
+</svg>

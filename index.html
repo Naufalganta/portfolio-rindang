@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Rindang Naufal Aganta</title>
+
+    <!-- Font Awesome untuk logo GitHub dan LinkedIn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS utama -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <a class="brand" href="#home">
+    <span class="brand-mark">RN</span>
+    <span>Rindang Naufal Aganta</span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="nav" id="nav">
+    <a class="nav-link active" href="#home">Beranda</a>
+    <a class="nav-link" href="#about">Tentang</a>
+    <a class="nav-link" href="#skills">Keahlian</a>
+    <a class="nav-link" href="#projects">Proyek</a>
+    <a class="nav-link" href="#certificates">Sertifikat</a>
+    <a class="nav-link" href="#contact">Kontak</a>
+  </nav>
+
+  <a class="btn btn-outline header-cta" href="assets/CV_RindangNaufalAganta.pdf" download>
+    ⇩&nbsp; Download CV
+  </a>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+ <div class="hero-content">
+  <p class="hello">Halo, Saya</p>
+  <h1>Rindang Naufal <span>Aganta</span></h1>
+  <h2>Mahasiswa Informatika | Network Security Enthusiast</h2>
+
+  <p class="hero-copy">
+    Mahasiswa S1 Informatika di Universitas AMIKOM Yogyakarta<br class="desktop-break">
+    yang fokus pada bidang Keamanan Jaringan, Sistem Monitoring,<br class="desktop-break">
+    dan Pengujian Keamanan (Penetration Testing).
+  </p>
+
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="#projects">Lihat Proyek Saya</a>
+    <a class="btn btn-ghost" href="#contact">Hubungi Saya</a>
+  </div>
+
+<div class="social-icons">
+    <a href="https://github.com/Naufalganta" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/rindang-naufal-aganta-8b17062b4/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+</div>
+ </div>
+</section>
+
+<section class="middle">
+
+ <div class="about" id="about">
+  <img class="profile-photo" src="assets/foto-rindang.jpeg" alt="Foto Rindang Naufal Aganta">
+
+  <div class="about-copy">
+   <h2>Tentang Saya</h2>
+   <p>
+    Saya Rindang Naufal Aganta, mahasiswa Informatika semester 7 di Universitas AMIKOM Yogyakarta.
+    Tertarik pada bidang Network Security, Intrusion Detection, SIEM, dan Penetration Testing.
+    Senang bereksperimen, membangun lab, dan mengerjakan proyek berbasis keamanan jaringan.
+   </p>
+  </div>
+ </div>
+
+ <div class="skills" id="skills">
+  <h2><span></span>Keahlian</h2>
+
+  <div class="skills-grid">
+
+   <div class="skill skill-kali">
+    <img class="skill-logo" src="assets/Linux.svg" alt="Logo Linux">
+    <span>Linux</span>
+   </div>
+
+   <div class="skill">
+    <img class="skill-logo" src="assets/wazuh-wordmark.svg" alt="Logo Wazuh">
+    <span>Wazuh<br>(SIEM)</span>
+   </div>
+
+   <div class="skill">
+    <img class="skill-logo" src="assets/pfsense.svg" alt="Logo pfSense">
+    <span>pfSense<br>(Firewall)</span>
+   </div>
+
+   <div class="skill">
+    <img class="skill-logo" src="assets/cisco.svg" alt="Logo Cisco">
+    <span>Networking<br>(Cisco/PT)</span>
+   </div>
+
+   <div class="skill skill-pentest">
+    <img class="skill-logo" src="assets/nmap-eye.svg" alt="Logo Nmap">
+    <span>Nmap</span>
+   </div>
+
+   <div class="skill">
+    <img class="skill-logo" src="assets/python.svg" alt="Logo Python">
+    <span>Python</span>
+   </div>
+
+   <div class="skill">
+    <img class="skill-logo" src="assets/csharp.svg" alt="Logo C sharp">
+    <span>C# / .NET</span>
+   </div>
+
+   <div class="skill">
+    <img class="skill-logo" src="assets/php.svg" alt="Logo PHP">
+    <span>PHP</span>
+   </div>
+
+   <div class="skill">
+    <img class="skill-logo" src="assets/mysql-light.svg" alt="Logo MySQL">
+    <span>MySQL</span>
+   </div>
+
+  </div>
+ </div>
+
+</section>
+
+<section class="bottom">
+
+ <div class="projects" id="projects">
+
+  <div class="section-title">
+   <h2><span></span>Proyek Unggulan</h2>
+   <a href="https://github.com/Naufalganta"
+      target="_blank" rel="noopener noreferrer">
+      Lihat GitHub Saya →
+   </a>
+  </div>
+
+  <div class="project-grid">
+
+   <article class="project-card">
+    <div class="project-cover cover-wazuh">
+     <strong>W</strong>
+     <span>wazuh.</span>
+     <i class="mini-dashboard"></i>
+    </div>
+
+    <h3>Analisis Rule Correlation<br>pada SIEM Wazuh</h3>
+
+    <p>
+     Mengukur efektivitas rule correlation dalam mendeteksi serangan
+     (port scanning, brute force, exploit sederhana) pada lab Wazuh + pfSense.
+    </p>
+
+    <div class="tags">
+     <span>Wazuh</span>
+     <span>pfSense</span>
+     <span>SIEM</span>
+    </div>
+
+    <a class="project-link" href="https://github.com/Naufalganta"
+       target="_blank" rel="noopener noreferrer">
+       Lihat Repository GitHub →
+    </a>
+   </article>
+
+   <article class="project-card">
+    <div class="project-cover cover-store">
+     <strong>🛒</strong>
+     <span>YOIS Store</span>
+     <i class="store-preview"></i>
+    </div>
+
+    <h3>YOIS Store – Toko Online</h3>
+
+    <p>
+     Website e-commerce fashion muslim dengan fitur produk, keranjang,
+     dan checkout menggunakan HTML, CSS, JavaScript, dan PHP.
+    </p>
+
+    <div class="tags">
+     <span>PHP</span>
+     <span>MySQL</span>
+     <span>Web Dev</span>
+    </div>
+
+    <a class="project-link" href="https://github.com/Naufalganta/yoisstore"
+       target="_blank" rel="noopener noreferrer">
+       Lihat Repository GitHub →
+    </a>
+   </article>
+
+   <article class="project-card">
+    <div class="project-cover cover-data">
+     <strong>▥</strong>
+     <i class="data-preview"></i>
+    </div>
+
+    <h3>Analisis Fraud<br>Transaksi (Big Data)</h3>
+
+    <p>
+     Analisis pola transaksi fraud menggunakan PySpark di Google Colab,
+     meliputi data cleaning, EDA, dan evaluasi model.
+    </p>
+
+    <div class="tags">
+     <span>PySpark</span>
+     <span>Pandas</span>
+     <span>Data Analysis</span>
+    </div>
+
+    <a class="project-link" href="https://github.com/Naufalganta"
+       target="_blank" rel="noopener noreferrer">
+       Lihat Repository GitHub →
+    </a>
+   </article>
+
+  </div>
+ </div>
+
+
+<aside class="contact" id="contact">
+    <h2><span></span>Kontak</h2>
+
+    <a href="mailto:rindang.naufal2@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>rindang.naufal2@gmail.com</span>
+    </a>
+
+    <a href="https://www.linkedin.com/in/rindang-naufal-aganta-8b17062b4/"
+       target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin-in"></i>
+        <span>LinkedIn - Rindang Naufal Aganta</span>
+    </a>
+
+    <a href="https://github.com/Naufalganta"
+       target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>github.com/Naufalganta</span>
+    </a>
+
+    <p>
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Yogyakarta, Indonesia</span>
+    </p>
+</aside>
+
+
+</section>
+
+<section class="certificates" id="certificates">
+ <h2><span></span>Sertifikat</h2>
+ <p>Tambahkan sertifikat pelatihan, kursus, atau pencapaian kamu di sini.</p>
+</section>
+
+</main>
+
+<footer>
+ © <span id="year"></span> Rindang Naufal Aganta
+ <a href="#home">Kembali ke atas ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
